@@ -1,0 +1,8 @@
+body{
+    background-color: #F5EBE0;
+
+}
+.image-container img{
+    width: 40%;
+    border-radius: 10px;
+}
