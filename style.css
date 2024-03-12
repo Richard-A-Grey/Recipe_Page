@@ -1,8 +1,118 @@
+*{
+    body {
+        overflow-x: hidden;
+    }
+}
 body{
-    background-color: #F5EBE0;
-
+    background-color: #e5d7c9;
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    font-size: small;
+}
+.recipe-page-container{
+    background-color: white;
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 15px #b5a28d;
+    color: #1B2323;
 }
 .image-container img{
-    width: 40%;
+    width: 100%;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px #cfcfcf;
 }
+.intro-text-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.preparation-time-container{
+    background-color: #FAF5F0;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 5px 5px 7px #e9d9c8;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    transition: transform 0.3s ease;
+}
+.ingredients-container{
+    background-color: #FAF5F0;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 5px 5px 7px #e9d9c8;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    transition: transform 0.3s ease;
+}
+.instructions-container{
+    background-color: #FAF5F0;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 5px 5px 7px #e9d9c8;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    transition: transform 0.3s ease;
+}
+.nutrition-container{
+    background-color: #FAF5F0;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 5px 5px 7px #e9d9c8;
+    padding-bottom: 3%;
+    transition: transform 0.3s ease;
+}
+.intro-text{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1.5px 1.5px 1px #cfcfcf;
+}
+.intro-text-paragraph{
+    margin-bottom: 7%;
+    text-align: center;
+}
+.preparation-time-text{
+    display: flex;
+    justify-content: center;
+}
+.ingredients-text{
+    display: flex;
+    justify-content: center;
+}
+.instructions-text{
+    display: flex;
+    justify-content: center;
+}
+.ordered-list-text{
+    margin-right: 7%;
+}
+.nutrition-text{
+    display: flex;
+    justify-content: center;
+}
+.nutrition-text-paragraph{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+th, td {
+    border: 1px solid #000; 
+    padding: 10px;
+    padding-left: 50PX;
+    padding-right: 50px;
+    text-align: center;
+    background-color: white;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+#hover:hover {
+    transform: scale(1.03);}
